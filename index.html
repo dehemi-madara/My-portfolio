@@ -379,14 +379,14 @@
 
         <div class="container">
             <div class="fillter-buttons">
-                <button class="btn">All</button>
-                <button class="btn">Product</button>
-                <button class="btn">Interacting</button>
-                <button class="btn">Web App</button>
+                <button class="btn" data-filter="all">All</button>
+                <button class="btn" data-filter=".product">Product</button>
+                <button class="btn" data-filter=".inter">Interacting</button>
+                <button class="btn" data-filter=".web">Web App</button>
             </div>
 
             <div class="portfolio-gallery">
-                <div class="port-box">
+                <div class="port-box mix product">
                     <div class="port-image">
                         <img src="img/img_1.jpg" alt="">
                     </div>
@@ -400,7 +400,7 @@
                     </div>
                 </div>
 
-                <div class="port-box">
+                <div class="port-box mix product">
                     <div class="port-image">
                         <img src="img/img_2.jpg" alt="">
                     </div>
@@ -414,7 +414,7 @@
                     </div>
                 </div>
 
-                <div class="port-box">
+                <div class="port-box mix inter">
                     <div class="port-image">
                         <img src="img/img_3.jpg" alt="">
                     </div>
@@ -428,7 +428,7 @@
                     </div>
                 </div>
 
-                <div class="port-box">
+                <div class="port-box mix inter">
                     <div class="port-image">
                         <img src="img/img_4.jpg" alt="">
                     </div>
@@ -442,7 +442,7 @@
                     </div>
                 </div>
 
-                <div class="port-box">
+                <div class="port-box mix inter">
                     <div class="port-image">
                         <img src="img/img_5.jpg" alt="">
                     </div>
@@ -456,7 +456,7 @@
                     </div>
                 </div>
 
-                <div class="port-box">
+                <div class="port-box mix web">
                     <div class="port-image">
                         <img src="img/img_6.jpg" alt="">
                     </div>
@@ -473,6 +473,33 @@
         </div>
     </section>
 
+    <!----------------------- contact section --------------------------->
+
+    <section id="contact" class="contact">
+        <div class="main-text">
+            <span>ask me question</span>
+            <h2>Contact Me</h2>
+        </div>
+
+        <form action="#">
+            <input type="text" placeholder="Your Name">
+            <input type="text" placeholder="Your Email">
+            <input type="text" placeholder="Your Address">
+            <input type="number" placeholder="Phone Number">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <div class="btn-box formbtn">
+                <button type="submit" class="btn">Send Message</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- footer website -->
+    <footer>
+        <p>Copyright &copy; 2024 by Parscoder || All Right Reserved.</p>
+        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </footer>
+
+    <script src="mixitup.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
